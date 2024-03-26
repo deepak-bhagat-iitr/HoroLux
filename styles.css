@@ -134,31 +134,40 @@ nav ul li {
 .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    /* align-content: center; */
     gap: 20px;
-    padding: 0 10px 0 10px;
-
 }
 
 .product {
     background-color: #555;
     padding: 20px;
     border-radius: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 
 .product img {
     max-width: 100%;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 .product h3 {
     font-size: 24px;
-
-    margin: 8px 0 10px 0;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .product p {
+    margin-bottom: auto;
     font-size: 18px;
+
+    line-height: 1.6;
+    text-align: center;
+}
+
+.price {
+    font-weight: 800;
 }
 
 /* About Us styles */
